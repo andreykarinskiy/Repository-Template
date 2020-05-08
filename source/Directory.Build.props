@@ -1,0 +1,25 @@
+<Project>
+  
+  <Import Project="$(SolutionDir)..\Package.props"/>
+  <Import Project="$(SolutionDir)..\Copyrights.props"/>
+  
+  <Import Project="$(SolutionDir)..\build\Icon.props"/>
+  <Import Project="$(SolutionDir)..\build\ApplyVersion.props"/>  
+
+  <PropertyGroup>
+
+    <PackageIcon>icon.png</PackageIcon>
+
+    <!-- Copyright details for the package. -->
+    <Copyright>© $([System.DateTime]::Now.ToString('yyyy')) $(Company). All rights reserved.</Copyright>
+
+    <!-- A long description for the assembly. 
+    If PackageDescription is not specified, then this property is also used as the description of the package. -->
+    <Description>$([System.IO.File]::ReadAllText('$(SolutionDir)..\description.txt'))</Description>
+    
+    <!-- Release notes for the package. -->
+    <PackageReleaseNotes>$([System.IO.File]::ReadAllText('$(SolutionDir)..\CHANGELOG.md'))</PackageReleaseNotes>
+    
+  </PropertyGroup>
+
+</Project>
