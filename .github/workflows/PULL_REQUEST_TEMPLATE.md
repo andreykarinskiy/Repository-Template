@@ -1,34 +1,46 @@
-# Description
+## Description
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+Please include a summary of the change and which issue is fixed. Please provide the motivation for why this change is necessary at this stage of the product development cycle.
 
 Fixes # (issue)
 
-## Type of change
+## Customer Impact
 
-Please delete options that are not relevant.
+Please describe any customer facing impact of this change. This can be positive or negative impact.
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+## Performance Impact
 
-# How Has This Been Tested?
+Please describe any relevant performance impact of this change. This can be positive or negative impact. How did you characterize/test the performance impact?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+## How Has This Been Tested?
+
+Please describe the tests that you ran to verify your changes. Provide instructions so others can reproduce. Please also list any relevant details for your test configuration.
 
 - [ ] Test A
 - [ ] Test B
 
-**Test Configuration**:
-* Firmware version:
-* Hardware:
-* Toolchain:
-* SDK:
+**Hardware Configuration**:
+- [ ] Dev Board
+- [ ] Test rack
+- [ ] DVT Boards
+- [ ] Production Boards
 
-# Checklist:
+**Software Configuration**:
+* Operating System:
+* Software version:
+* Branch:
+* Toolchain version:
+* SDK version:
 
-- [ ] My code follows the style guidelines of this project
+## Reviews
+
+Please identify two developers to review this change
+
+- [ ] @personA
+- [ ] @personB
+
+## Checklist:
+
 - [ ] I have performed a self-review of my own code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
